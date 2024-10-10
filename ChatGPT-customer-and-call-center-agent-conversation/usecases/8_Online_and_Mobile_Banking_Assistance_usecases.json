@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "8",
+    "category_name": "Online and Mobile Banking Assistance"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "8.1",
+        "scenario_name": "Setting up or troubleshooting online or mobile banking access"
+      },
+      "usecases": [
+        {
+          "usecase_number": "8.1.1",
+          "usecase_description": "Assisting with the initial setup of the mobile banking app."
+        },
+        {
+          "usecase_number": "8.1.2",
+          "usecase_description": "Troubleshooting issues with login or app functionality."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "8.2",
+        "scenario_name": "Resetting online banking passwords or usernames"
+      },
+      "usecases": [
+        {
+          "usecase_number": "8.2.1",
+          "usecase_description": "Resetting a forgotten username or password for online access."
+        },
+        {
+          "usecase_number": "8.2.2",
+          "usecase_description": "Updating security preferences after a password reset."
+        }
+      ]
+    }
+  ]
+}

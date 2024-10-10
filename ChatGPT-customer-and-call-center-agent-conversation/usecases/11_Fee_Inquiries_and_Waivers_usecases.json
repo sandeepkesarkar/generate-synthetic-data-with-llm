@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "11",
+    "category_name": "Fee Inquiries and Waivers"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "11.1",
+        "scenario_name": "Requesting clarification on fees (e.g., overdraft fees, maintenance fees)"
+      },
+      "usecases": [
+        {
+          "usecase_number": "11.1.1",
+          "usecase_description": "Asking why a maintenance fee was charged on a checking account."
+        },
+        {
+          "usecase_number": "11.1.2",
+          "usecase_description": "Understanding fees for specific transactions or services."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "11.2",
+        "scenario_name": "Asking for a one-time fee waiver or refund"
+      },
+      "usecases": [
+        {
+          "usecase_number": "11.2.1",
+          "usecase_description": "Requesting an overdraft fee reversal for a first-time occurrence."
+        },
+        {
+          "usecase_number": "11.2.2",
+          "usecase_description": "Asking for a refund on an annual fee after account closure."
+        }
+      ]
+    }
+  ]
+}

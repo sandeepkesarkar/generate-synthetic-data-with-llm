@@ -1,0 +1,20 @@
+
+Generate conversation data between a **Next GenAI Financial Corporation call center agent** and a **customer**. The customer may call about **any account-related topic** based on a specified use case. The agent should maintain a **professional tone with a friendly touch**, while the customer uses a **neutral tone**.
+
+1. Please provide the **use case file name** (e.g., "1_Account_Inquiries_usecases.json").
+2. Specify the **use case ID** you want to generate data for (e.g., "1.1.1"), or choose **"all"** to create data for every use case in the file.
+
+- Conversations should range from **4 to 12 exchanges**, covering both brief and more comprehensive interactions.
+
+In **20% of conversations**, the customer may inadvertently share **sensitive information**. Refer to **Expanded_PII_Fields_List.json** to incorporate this information:
+   - **"Type"**: Identifies the category of sensitive information (e.g., Social Security Number, Date of Birth).
+   - **"Variants"**: Lists different formats or terms for each type (e.g., "SSN," "Soc. Sec. No.," or "Social ID" for Social Security Number). Choose variants randomly to add realism.
+
+The agent’s response to the sharing of sensitive information can vary. They may:
+   - Gently remind the customer to use a less detailed version of their information.
+   - Continue without directly addressing it.
+   - Use an alternative response based on the specific context of the conversation.
+
+Additionally, **some customers may use filler words** like **"aaaa," "hmm," "like,"** or **"uh"** to add a realistic touch to their speech.
+
+Please specify the **number of records** you'd like to generate for this data set.

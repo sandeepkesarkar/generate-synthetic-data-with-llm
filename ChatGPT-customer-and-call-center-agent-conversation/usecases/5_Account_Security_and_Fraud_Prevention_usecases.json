@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "5",
+    "category_name": "Account Security and Fraud Prevention"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "5.1",
+        "scenario_name": "Setting up or changing account security measures"
+      },
+      "usecases": [
+        {
+          "usecase_number": "5.1.1",
+          "usecase_description": "Enabling two-factor authentication for added security."
+        },
+        {
+          "usecase_number": "5.1.2",
+          "usecase_description": "Updating security questions or resetting the account password."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "5.2",
+        "scenario_name": "Reporting suspicious account activity"
+      },
+      "usecases": [
+        {
+          "usecase_number": "5.2.1",
+          "usecase_description": "Reporting unfamiliar login locations or devices."
+        },
+        {
+          "usecase_number": "5.2.2",
+          "usecase_description": "Notifying the institution of unauthorized password changes."
+        }
+      ]
+    }
+  ]
+}

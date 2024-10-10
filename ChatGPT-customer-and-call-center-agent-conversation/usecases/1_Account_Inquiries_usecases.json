@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "1",
+    "category_name": "Account Inquiries"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "1.1",
+        "scenario_name": "Checking account balance"
+      },
+      "usecases": [
+        {
+          "usecase_number": "1.1.1",
+          "usecase_description": "Requesting the current balance for one or multiple accounts."
+        },
+        {
+          "usecase_number": "1.1.2",
+          "usecase_description": "Verifying available funds before making a purchase or payment."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "1.2",
+        "scenario_name": "Inquiring about recent transactions or charges"
+      },
+      "usecases": [
+        {
+          "usecase_number": "1.2.1",
+          "usecase_description": "Asking for details on specific transactions (e.g., merchant name, date)."
+        },
+        {
+          "usecase_number": "1.2.2",
+          "usecase_description": "Investigating pending transactions or holds on the account."
+        }
+      ]
+    }
+  ]
+}

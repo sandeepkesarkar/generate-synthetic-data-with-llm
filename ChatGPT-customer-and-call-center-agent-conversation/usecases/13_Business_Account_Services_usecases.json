@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "13",
+    "category_name": "Business Account Services"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "13.1",
+        "scenario_name": "Inquiring about business loan products or application status"
+      },
+      "usecases": [
+        {
+          "usecase_number": "13.1.1",
+          "usecase_description": "Asking about interest rates and terms for business loans."
+        },
+        {
+          "usecase_number": "13.1.2",
+          "usecase_description": "Checking the approval status of a business loan application."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "13.2",
+        "scenario_name": "Requesting support for payroll or merchant services"
+      },
+      "usecases": [
+        {
+          "usecase_number": "13.2.1",
+          "usecase_description": "Setting up direct deposit or payroll services for employees."
+        },
+        {
+          "usecase_number": "13.2.2",
+          "usecase_description": "Troubleshooting merchant services for point-of-sale transactions."
+        }
+      ]
+    }
+  ]
+}

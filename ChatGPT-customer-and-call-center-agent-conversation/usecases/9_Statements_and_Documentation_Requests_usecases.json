@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "9",
+    "category_name": "Statements and Documentation Requests"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "9.1",
+        "scenario_name": "Requesting account statements or transaction history"
+      },
+      "usecases": [
+        {
+          "usecase_number": "9.1.1",
+          "usecase_description": "Asking for a statement copy from a specific date range."
+        },
+        {
+          "usecase_number": "9.1.2",
+          "usecase_description": "Requesting transaction history for tax or budgeting purposes."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "9.2",
+        "scenario_name": "Asking for copies of tax documents or interest earned statements"
+      },
+      "usecases": [
+        {
+          "usecase_number": "9.2.1",
+          "usecase_description": "Requesting a 1099-INT form or similar tax documentation."
+        },
+        {
+          "usecase_number": "9.2.2",
+          "usecase_description": "Asking for interest statements for a savings or investment account."
+        }
+      ]
+    }
+  ]
+}

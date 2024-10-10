@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "2",
+    "category_name": "Transaction Issues"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "2.1",
+        "scenario_name": "Disputing a charge or unauthorized transaction"
+      },
+      "usecases": [
+        {
+          "usecase_number": "2.1.1",
+          "usecase_description": "Reporting a charge that was not recognized by the account holder."
+        },
+        {
+          "usecase_number": "2.1.2",
+          "usecase_description": "Requesting a temporary credit while the transaction is investigated."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "2.2",
+        "scenario_name": "Reporting fraudulent activity"
+      },
+      "usecases": [
+        {
+          "usecase_number": "2.2.1",
+          "usecase_description": "Notifying the institution of suspicious activity on the account."
+        },
+        {
+          "usecase_number": "2.2.2",
+          "usecase_description": "Freezing the account to prevent further unauthorized transactions."
+        }
+      ]
+    }
+  ]
+}

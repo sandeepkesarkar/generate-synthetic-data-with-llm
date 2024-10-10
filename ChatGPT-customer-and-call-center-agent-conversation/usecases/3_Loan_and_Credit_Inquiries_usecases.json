@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "3",
+    "category_name": "Loan and Credit Inquiries"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "3.1",
+        "scenario_name": "Applying for a loan or credit card"
+      },
+      "usecases": [
+        {
+          "usecase_number": "3.1.1",
+          "usecase_description": "Requesting information on eligibility requirements for loan products."
+        },
+        {
+          "usecase_number": "3.1.2",
+          "usecase_description": "Asking about interest rates, fees, and rewards for credit cards."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "3.2",
+        "scenario_name": "Inquiring about loan or credit card approval status"
+      },
+      "usecases": [
+        {
+          "usecase_number": "3.2.1",
+          "usecase_description": "Checking the status of a pending application for a loan or card."
+        },
+        {
+          "usecase_number": "3.2.2",
+          "usecase_description": "Asking about the estimated timeline for approval."
+        }
+      ]
+    }
+  ]
+}

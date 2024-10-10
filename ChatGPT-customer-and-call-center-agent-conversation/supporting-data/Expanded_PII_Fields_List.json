@@ -1,0 +1,227 @@
+{
+  "PII_Fields": [
+    {
+      "Type": "Social Security Number",
+      "Variants": [
+        "SSN",
+        "Social Security Number",
+        "Social",
+        "Soc. Sec. No.",
+        "Full SSN",
+        "SS#",
+        "Soc Sec Number",
+        "Social Sec Number",
+        "Social ID"
+      ]
+    },
+    {
+      "Type": "Date of Birth",
+      "Variants": [
+        "Date of Birth",
+        "DOB",
+        "Birthdate",
+        "Birth date",
+        "D.O.B.",
+        "Birth Date",
+        "Date of Birth (DOB)",
+        "B-day",
+        "Birthday"
+      ]
+    },
+    {
+      "Type": "Account Number",
+      "Variants": [
+        "Full Account Number",
+        "Account Number",
+        "Acct No.",
+        "Acct #",
+        "Full Acct",
+        "Checking Account Number",
+        "Savings Account Number",
+        "Bank Account Number",
+        "Acc. No.",
+        "Acc Number"
+      ]
+    },
+    {
+      "Type": "Driver\u2019s License Number",
+      "Variants": [
+        "Driver's License",
+        "DL Number",
+        "License Number",
+        "Driver License",
+        "Driver License No.",
+        "DL#",
+        "Driver\u2019s ID",
+        "Driver ID"
+      ]
+    },
+    {
+      "Type": "Passport Number",
+      "Variants": [
+        "Passport No.",
+        "Passport ID",
+        "Passport Number",
+        "Passport #",
+        "Passport Identification Number",
+        "Travel Document Number"
+      ]
+    },
+    {
+      "Type": "Credit/Debit Card Number",
+      "Variants": [
+        "Card Number",
+        "Credit Card Number",
+        "Debit Card Number",
+        "Full Card Number",
+        "Card No.",
+        "Credit No.",
+        "Card #",
+        "Credit/Debit No."
+      ]
+    },
+    {
+      "Type": "Bank Routing Number",
+      "Variants": [
+        "Routing Number",
+        "Bank Routing Number",
+        "Routing No.",
+        "Bank Routing No.",
+        "Routing #",
+        "RTN",
+        "ABA Routing Number"
+      ]
+    },
+    {
+      "Type": "Tax Identification Number (TIN)",
+      "Variants": [
+        "TIN",
+        "Tax ID",
+        "Tax Identification Number",
+        "Taxpayer Identification Number",
+        "Federal Tax ID",
+        "EIN",
+        "Employer Identification Number",
+        "Tax ID Number"
+      ]
+    },
+    {
+      "Type": "Address Information",
+      "Variants": [
+        "Full Address",
+        "Home Address",
+        "Mailing Address",
+        "Residence Address",
+        "Street Address",
+        "Billing Address",
+        "Shipping Address",
+        "Physical Address"
+      ]
+    },
+    {
+      "Type": "Phone Number",
+      "Variants": [
+        "Phone Number",
+        "Mobile Number",
+        "Cell Number",
+        "Contact Number",
+        "Telephone Number",
+        "Phone No.",
+        "Contact No.",
+        "Tel No.",
+        "Cell No.",
+        "Cellphone Number"
+      ]
+    },
+    {
+      "Type": "Email Address",
+      "Variants": [
+        "Email",
+        "Email Address",
+        "Email ID",
+        "e-mail",
+        "Email Account",
+        "Electronic Mail",
+        "Email Contact",
+        "Email Addr"
+      ]
+    },
+    {
+      "Type": "Usernames or Login Information",
+      "Variants": [
+        "Username",
+        "Login ID",
+        "User ID",
+        "User Name",
+        "Account Username",
+        "Login Name",
+        "Account ID",
+        "Account Login",
+        "User Login"
+      ]
+    },
+    {
+      "Type": "Mother\u2019s Maiden Name",
+      "Variants": [
+        "Mother\u2019s Maiden Name",
+        "Maiden Name",
+        "Mother's Birth Name",
+        "Mother's Family Name",
+        "Maternal Last Name",
+        "Mother's Surname"
+      ]
+    },
+    {
+      "Type": "Personal Identification Number (PIN)",
+      "Variants": [
+        "PIN",
+        "ATM PIN",
+        "Bank PIN",
+        "Card PIN",
+        "Account PIN",
+        "Personal Identification Number",
+        "PIN Code",
+        "Security PIN"
+      ]
+    },
+    {
+      "Type": "Biometric Data",
+      "Variants": [
+        "Fingerprint",
+        "Face ID",
+        "Voice ID",
+        "Facial Recognition",
+        "Iris Scan",
+        "Retina Scan",
+        "Voice Recognition",
+        "Biometric ID"
+      ]
+    },
+    {
+      "Type": "Health Insurance Numbers",
+      "Variants": [
+        "Health ID",
+        "Insurance Number",
+        "Health Insurance",
+        "Health Insurance ID",
+        "Medical Insurance Number",
+        "Health Plan ID",
+        "Insurance ID"
+      ]
+    },
+    {
+      "Type": "Additional Security-related Keywords",
+      "Variants": [
+        "Password",
+        "Security Question",
+        "Answer to Security Question",
+        "Verification Code",
+        "One-Time Password",
+        "OTP",
+        "Auth Code",
+        "Passphrase",
+        "Secret Answer"
+      ]
+    }
+  ]
+}

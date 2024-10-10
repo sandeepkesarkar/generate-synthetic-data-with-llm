@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "15",
+    "category_name": "General Inquiries and Other Services"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "15.1",
+        "scenario_name": "Asking about financial education resources or advice"
+      },
+      "usecases": [
+        {
+          "usecase_number": "15.1.1",
+          "usecase_description": "Inquiring about budgeting tools or educational workshops."
+        },
+        {
+          "usecase_number": "15.1.2",
+          "usecase_description": "Asking about resources for first-time homebuyers or investors."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "15.2",
+        "scenario_name": "Requesting help with tax planning or financial advice"
+      },
+      "usecases": [
+        {
+          "usecase_number": "15.2.1",
+          "usecase_description": "Asking about retirement or estate planning services."
+        },
+        {
+          "usecase_number": "15.2.2",
+          "usecase_description": "Seeking advice on saving for college or large purchases."
+        }
+      ]
+    }
+  ]
+}

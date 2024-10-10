@@ -1,0 +1,32 @@
+
+Generate conversation data between a **Next GenAI Financial Corporation call center agent** and a **customer**. The customer may call about **any account-related topic** based on a specified use case. The agent should maintain a **professional tone with a friendly touch**, while the customer uses a **neutral tone**.
+
+1. Please provide the **use case file name** (e.g., "1_Account_Inquiries_usecases.json").
+2. Specify the **use case ID** you want to generate data for (e.g., "1.1.1"), or choose **"all"** to create data for every use case in the file.
+
+- Conversations should range from **4 to 12 exchanges**, covering both brief and more comprehensive interactions.
+
+In **20% of conversations**, the customer may inadvertently share **sensitive information**. Refer to **Expanded_PII_Fields_List.json** to incorporate this information:
+   - **"Type"**: Identifies the category of sensitive information (e.g., Social Security Number, Date of Birth).
+   - **"Variants"**: Lists different formats or terms for each type (e.g., "SSN," "Soc. Sec. No.," or "Social ID" for Social Security Number). Choose variants randomly to add realism.
+
+The agent’s response to the sharing of sensitive information should vary based on the context. They may:
+   - Gently remind the customer to use a less detailed version of their information.
+   - Acknowledge the information and continue without directly addressing it.
+   - Use alternative responses, such as requesting additional details or suggesting another verification method.
+
+Additionally:
+- **Customer Personas**: Incorporate slight variations in customer personas, such as age, level of tech-savviness, or urgency. This variation may influence their tone and the details they share.
+- **Agent Tone**: The agent should remain professional but may vary their responses slightly based on the customer’s tone. For example, they can be more empathetic if the customer seems frustrated, or more concise if the inquiry is straightforward.
+- **Customer Goals**: Although the reason for the inquiry is unspecified, the customer might have an underlying goal (such as budgeting, preparing for a purchase, etc.), which can subtly influence the conversation’s flow.
+- **Filler Words**: Some customers may use filler words such as **"aaaa," "hmm," "like,"** or **"uh"** to make their speech more natural.
+
+**Example Exchange**:
+   ```plaintext
+   Customer: “Hi, can you tell me my account balance?”
+   Agent: “Certainly, I’d be happy to assist. Could I have the last four digits of your account number, please?”
+   Customer: “Um, yeah, it’s 123456789.”
+   Agent: “Thank you for sharing that. For security, could you confirm just the last four digits instead?”
+   ```
+
+Please specify the **number of records** you'd like to generate for this data set. The output should be saved in a file named **usecase_id_conversations.json**, where `usecase_id` is the specific use case number (e.g., "1.1.1").

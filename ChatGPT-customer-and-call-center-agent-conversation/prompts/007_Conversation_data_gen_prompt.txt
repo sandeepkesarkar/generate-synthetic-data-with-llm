@@ -1,0 +1,37 @@
+
+Generate conversation data between a **Next GenAI Financial Corporation call center agent** and a **customer**. The customer may call about **any account-related topic** based on a specified use case. The agent should maintain a **professional tone with a friendly touch**, while the customer uses a **neutral tone**.
+
+To get started, please provide the following inputs:
+
+1. **Use Case File Name**: Specify the file that outlines the customer inquiry topics and scenarios (e.g., "1_Account_Inquiries_usecases.json").
+2. **Use Case ID**: Provide the specific ID for the scenario to generate data for (e.g., "1.1.1") or choose "all" to create conversations for every use case in the file.
+3. **Expanded PII Fields List**: Indicate the file that lists sensitive information categories and their variants for realistic customer data inclusion (e.g., "Expanded_PII_Fields_List.json").
+4. **Number of Records**: Specify the number of complete conversations you want generated. Each record represents one unique conversation between the agent and a distinct customer.
+5. **Customer Persona Details (optional)**: Add specific traits like age, tech-savviness, and urgency level to influence tone and interaction style.
+6. **Agent Tone Variation**: The agent’s tone should adapt based on customer tone; for instance, more empathetic if the customer sounds frustrated or more concise for straightforward inquiries.
+
+**Conversation Flow**:
+- Conversations should range from **4 to 12 exchanges**, covering both brief and more comprehensive interactions.
+- In **20% of conversations**, the customer may inadvertently share **sensitive information**. Use the **Expanded PII Fields List** for details on types and variants to add realism.
+
+The agent’s response to the sharing of sensitive information should vary based on the context. They may:
+   - Gently remind the customer to use a less detailed version of their information.
+   - Acknowledge the information and continue without directly addressing it.
+   - Use alternative responses, such as requesting additional details or suggesting another verification method.
+
+Additional Notes:
+- **Agent Greeting**: The agent should greet the customer at the beginning of the call most of the time.
+- **Customer Authentication**: Typically, the agent should authenticate the customer before providing detailed information.
+- **Customer Goals**: Even if the primary reason for the inquiry is unspecified, the customer might have underlying goals (budgeting, preparing for a purchase, etc.), subtly influencing the conversation.
+- **Natural Language**: Some customers may use filler words such as "aaaa," "hmm," "like," or "uh" to make their speech sound more natural.
+
+**Example Exchange**:
+   ```plaintext
+   Agent: “Hello, thank you for calling Next GenAI Financial Corporation. How can I assist you today?”
+   Customer: “Hi, can you tell me my account balance?”
+   Agent: “Certainly, I’d be happy to assist. Could I have the last four digits of your account number, please?”
+   Customer: “Um, yeah, it’s 123456789.”
+   Agent: “Thank you for sharing that. For security, could you confirm just the last four digits instead?”
+   Agent: “Great, I can confirm your balance is $5,432.78.”
+   ```
+The output should be saved in a file named **usecase_id_conversations.json**, where `usecase_id` is the specific use case number (e.g., "1.1.1").

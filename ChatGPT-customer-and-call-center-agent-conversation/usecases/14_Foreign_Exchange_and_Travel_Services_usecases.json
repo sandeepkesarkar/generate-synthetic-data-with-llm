@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "14",
+    "category_name": "Foreign Exchange and Travel Services"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "14.1",
+        "scenario_name": "Inquiring about currency exchange rates or ordering foreign currency"
+      },
+      "usecases": [
+        {
+          "usecase_number": "14.1.1",
+          "usecase_description": "Asking about rates for specific foreign currencies."
+        },
+        {
+          "usecase_number": "14.1.2",
+          "usecase_description": "Placing an order for currency exchange at a branch."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "14.2",
+        "scenario_name": "Requesting information on international transaction fees"
+      },
+      "usecases": [
+        {
+          "usecase_number": "14.2.1",
+          "usecase_description": "Clarifying fees for international purchases or ATM withdrawals."
+        },
+        {
+          "usecase_number": "14.2.2",
+          "usecase_description": "Inquiring about foreign transaction fees on a credit card."
+        }
+      ]
+    }
+  ]
+}

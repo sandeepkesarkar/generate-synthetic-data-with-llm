@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "6",
+    "category_name": "Account Maintenance and Updates"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "6.1",
+        "scenario_name": "Adding or removing authorized users from an account"
+      },
+      "usecases": [
+        {
+          "usecase_number": "6.1.1",
+          "usecase_description": "Adding a spouse or family member to a joint account."
+        },
+        {
+          "usecase_number": "6.1.2",
+          "usecase_description": "Removing an authorized user who no longer needs account access."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "6.2",
+        "scenario_name": "Updating account beneficiaries or joint account holders"
+      },
+      "usecases": [
+        {
+          "usecase_number": "6.2.1",
+          "usecase_description": "Adding or changing beneficiaries for an account or retirement plan."
+        },
+        {
+          "usecase_number": "6.2.2",
+          "usecase_description": "Updating joint account holders due to legal changes."
+        }
+      ]
+    }
+  ]
+}

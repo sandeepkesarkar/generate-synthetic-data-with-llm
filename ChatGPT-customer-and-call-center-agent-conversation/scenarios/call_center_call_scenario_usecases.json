@@ -1,0 +1,148 @@
+{
+  "Scenarios": [
+    {
+      "category": {
+        "category_number": "1",
+        "category_name": "Account Inquiries"
+      },
+      "scenarios": [
+        {
+          "scenario": {
+            "scenario_number": "1.1",
+            "scenario_name": "Checking account balance"
+          },
+          "usecases": [
+            {
+              "usecase_number": "1.1.1",
+              "usecase_description": "Requesting the current balance for one or multiple accounts."
+            },
+            {
+              "usecase_number": "1.1.2",
+              "usecase_description": "Verifying available funds before making a purchase or payment."
+            }
+          ]
+        },
+        {
+          "scenario": {
+            "scenario_number": "1.2",
+            "scenario_name": "Inquiring about recent transactions or charges"
+          },
+          "usecases": [
+            {
+              "usecase_number": "1.2.1",
+              "usecase_description": "Asking for details on specific transactions (e.g., merchant name, date)."
+            },
+            {
+              "usecase_number": "1.2.2",
+              "usecase_description": "Investigating pending transactions or holds on the account."
+            }
+          ]
+        },
+        {
+          "scenario": {
+            "scenario_number": "1.3",
+            "scenario_name": "Requesting information on interest rates or account terms"
+          },
+          "usecases": [
+            {
+              "usecase_number": "1.3.1",
+              "usecase_description": "Inquiring about interest rates on savings or checking accounts."
+            },
+            {
+              "usecase_number": "1.3.2",
+              "usecase_description": "Asking about account maintenance requirements and any changes to terms."
+            }
+          ]
+        },
+        {
+          "scenario": {
+            "scenario_number": "1.4",
+            "scenario_name": "Updating contact information or personal details"
+          },
+          "usecases": [
+            {
+              "usecase_number": "1.4.1",
+              "usecase_description": "Changing a mailing address, phone number, or email on file."
+            },
+            {
+              "usecase_number": "1.4.2",
+              "usecase_description": "Updating legal names due to marriage, divorce, or other reasons."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": {
+        "category_number": "2",
+        "category_name": "Transaction Issues"
+      },
+      "scenarios": [
+        {
+          "scenario": {
+            "scenario_number": "2.1",
+            "scenario_name": "Disputing a charge or unauthorized transaction"
+          },
+          "usecases": [
+            {
+              "usecase_number": "2.1.1",
+              "usecase_description": "Reporting a charge that was not recognized by the account holder."
+            },
+            {
+              "usecase_number": "2.1.2",
+              "usecase_description": "Requesting a temporary credit while the transaction is investigated."
+            }
+          ]
+        },
+        {
+          "scenario": {
+            "scenario_number": "2.2",
+            "scenario_name": "Reporting fraudulent activity"
+          },
+          "usecases": [
+            {
+              "usecase_number": "2.2.1",
+              "usecase_description": "Notifying the institution of suspicious activity on the account."
+            },
+            {
+              "usecase_number": "2.2.2",
+              "usecase_description": "Freezing the account to prevent further unauthorized transactions."
+            }
+          ]
+        },
+        {
+          "scenario": {
+            "scenario_number": "2.3",
+            "scenario_name": "Inquiring about a declined or failed transaction"
+          },
+          "usecases": [
+            {
+              "usecase_number": "2.3.1",
+              "usecase_description": "Asking why a transaction was declined despite having sufficient funds."
+            },
+            {
+              "usecase_number": "2.3.2",
+              "usecase_description": "Investigating whether an account freeze or hold caused the decline."
+            }
+          ]
+        },
+        {
+          "scenario": {
+            "scenario_number": "2.4",
+            "scenario_name": "Requesting a transaction reversal or refund"
+          },
+          "usecases": [
+            {
+              "usecase_number": "2.4.1",
+              "usecase_description": "Seeking a refund for a double charge or an error by the merchant."
+            },
+            {
+              "usecase_number": "2.4.2",
+              "usecase_description": "Asking for a reversal on a recently completed transaction."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

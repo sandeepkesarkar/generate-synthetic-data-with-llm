@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "10",
+    "category_name": "Investment and Savings Account Questions"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "10.1",
+        "scenario_name": "Opening or inquiring about savings or investment accounts"
+      },
+      "usecases": [
+        {
+          "usecase_number": "10.1.1",
+          "usecase_description": "Asking about requirements for opening a money market account."
+        },
+        {
+          "usecase_number": "10.1.2",
+          "usecase_description": "Inquiring about investment accounts or retirement plans."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "10.2",
+        "scenario_name": "Asking about interest rates or terms for savings, CDs, or money market accounts"
+      },
+      "usecases": [
+        {
+          "usecase_number": "10.2.1",
+          "usecase_description": "Comparing interest rates for different savings options."
+        },
+        {
+          "usecase_number": "10.2.2",
+          "usecase_description": "Understanding withdrawal limitations or terms for CDs."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "4",
+    "category_name": "Card Services"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "4.1",
+        "scenario_name": "Activating a new credit or debit card"
+      },
+      "usecases": [
+        {
+          "usecase_number": "4.1.1",
+          "usecase_description": "Requesting card activation assistance for the first time."
+        },
+        {
+          "usecase_number": "4.1.2",
+          "usecase_description": "Setting up a PIN for ATM use or verification."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "4.2",
+        "scenario_name": "Reporting a lost or stolen card"
+      },
+      "usecases": [
+        {
+          "usecase_number": "4.2.1",
+          "usecase_description": "Notifying the bank to block the card and prevent unauthorized use."
+        },
+        {
+          "usecase_number": "4.2.2",
+          "usecase_description": "Requesting a replacement card and estimated delivery date."
+        }
+      ]
+    }
+  ]
+}

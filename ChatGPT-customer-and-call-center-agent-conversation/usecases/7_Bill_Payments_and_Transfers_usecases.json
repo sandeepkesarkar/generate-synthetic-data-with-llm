@@ -1,0 +1,40 @@
+{
+  "category": {
+    "category_number": "7",
+    "category_name": "Bill Payments and Transfers"
+  },
+  "scenarios": [
+    {
+      "scenario": {
+        "scenario_number": "7.1",
+        "scenario_name": "Setting up automatic bill payments or recurring transfers"
+      },
+      "usecases": [
+        {
+          "usecase_number": "7.1.1",
+          "usecase_description": "Scheduling automatic bill payments for utility or loan accounts."
+        },
+        {
+          "usecase_number": "7.1.2",
+          "usecase_description": "Setting up a monthly transfer to a savings account."
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "scenario_number": "7.2",
+        "scenario_name": "Cancelling or modifying a scheduled payment or transfer"
+      },
+      "usecases": [
+        {
+          "usecase_number": "7.2.1",
+          "usecase_description": "Cancelling a transfer before it is processed."
+        },
+        {
+          "usecase_number": "7.2.2",
+          "usecase_description": "Modifying the transfer amount or payment frequency."
+        }
+      ]
+    }
+  ]
+}
